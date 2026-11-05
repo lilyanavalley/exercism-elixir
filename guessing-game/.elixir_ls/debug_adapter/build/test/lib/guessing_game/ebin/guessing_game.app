@@ -1,0 +1,1 @@
+{application,guessing_game,[{modules,['Elixir.GuessingGame']},{optional_applications,[]},{applications,[kernel,stdlib,elixir,logger]},{description,"guessing_game"},{registered,[]},{vsn,"0.1.0"}]}.
