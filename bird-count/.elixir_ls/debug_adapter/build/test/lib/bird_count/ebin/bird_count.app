@@ -1,0 +1,1 @@
+{application,bird_count,[{modules,['Elixir.BirdCount']},{optional_applications,[]},{applications,[kernel,stdlib,elixir,logger]},{description,"bird_count"},{registered,[]},{vsn,"0.1.0"}]}.

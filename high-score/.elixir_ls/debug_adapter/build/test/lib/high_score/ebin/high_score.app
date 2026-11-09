@@ -1,0 +1,1 @@
+{application,high_score,[{modules,['Elixir.HighScore']},{optional_applications,[]},{applications,[kernel,stdlib,elixir,logger]},{description,"high_score"},{registered,[]},{vsn,"0.1.0"}]}.

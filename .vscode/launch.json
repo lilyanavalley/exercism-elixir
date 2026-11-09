@@ -16,6 +16,32 @@
     },
     {
       "type": "mix_task",
+      "name": "mix test (bird-count)",
+      "request": "launch",
+      "task": "test",
+      "taskArgs": ["--trace"],
+      "startApps": true,
+      "projectDir": "${workspaceFolder}/bird-count",
+      "requireFiles": [
+        "test/**/test_helper.exs",
+        "test/**/*_test.exs"
+      ]
+    },
+    {
+      "type": "mix_task",
+      "name": "mix test (high-score)",
+      "request": "launch",
+      "task": "test",
+      "taskArgs": ["--trace"],
+      "startApps": true,
+      "projectDir": "${workspaceFolder}/high-score",
+      "requireFiles": [
+        "test/**/test_helper.exs",
+        "test/**/*_test.exs"
+      ]
+    },
+    {
+      "type": "mix_task",
       "name": "mix test (current file)",
       "request": "launch",
       "task": "test",
